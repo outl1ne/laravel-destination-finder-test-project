@@ -1,5 +1,7 @@
 # Laravel Destination Finder test project
 
+![Thumbnail](https://repository-images.githubusercontent.com/590404206/f7017d0c-1741-4e05-b805-7123dd47be40)
+
 You have buses driving routes with specified stops. Each route have multiple stops and each stop might multiple routes driving through it. The stops for a specified route have a specific order.
 
 Imagine we have the following routes defined:
