@@ -30,4 +30,4 @@ Create a Laravel application with the following features.
 
 ## Submission
 
-Create a Git repository and share the link or access to our CTO - Allan (allan@outl1ne.com).
+Create a Git repository and share the link
