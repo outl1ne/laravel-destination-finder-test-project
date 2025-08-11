@@ -11,7 +11,11 @@ Imagine the following routes:
 - Tallinn-Tartu with stops: Tallinn, Kose, Paide, Põltsamaa, Tartu
 - Tartu-Tallinn with the same stops in reverse order
 
-If a person is at Saue stop then they can only travel to stops on Tallinn-Haapsalu or Haapsalu-Tallinn routes which come after Saue stop in the direction of the route (in case of Tallinn-Haapsalu route, they can travel to Keila, but not Tallinn).
+If a person is at Saue, they can travel to any stops after Saue on each route that contains it:
+- On Tallinn–Haapsalu: Keila, Riisipere, Haapsalu
+- On Haapsalu–Tallinn: Tallinn
+
+The API should return all such “future stops” across all routes containing the given stop, without duplicates.
 
 This should provide you enough context when building the API.
 
